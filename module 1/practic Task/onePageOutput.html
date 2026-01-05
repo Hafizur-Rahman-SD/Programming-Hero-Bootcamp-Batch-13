@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Head Section  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Travel Blog</title>
+
+  <!-- CSS Style  -->
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background: #f5f7ff;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    header{
+      background: #6c63ff;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    header h1{
+      margin: 0;
+      font-size: 40px;
+    }
+
+    header p{
+      margin-top: 10px;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    .container{
+      width: 90%;
+      max-width: 900px;
+      margin: 25px auto;
+    }
+
+    .card{
+      background: white;
+      padding: 20px;
+      margin-bottom: 18px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h2{
+      margin-top: 0;
+      color: #6c63ff;
+    }
+
+    .btn{
+      background: #6c63ff;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .btn:hover{
+      background: #5147ff;
+    }
+
+    img{
+      border-radius: 10px;
+      margin-top: 10px;
+      display: block;
+    }
+
+    .tag-title{
+      font-size: 18px;
+      color: #333;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+    input, select{
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin: 6px 0;
+      width: 100%;
+      max-width: 420px;
+      font-size: 14px;
+    }
+
+    label{
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    footer{
+      text-align: center;
+      padding: 18px;
+      background: #ffffff;
+      margin-top: 25px;
+      color: #555;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--  Header Section  -->
+  <header>
+    <h1><i>My Travel Blog</i></h1>
+    <p>All HTML Practice Tasks in One Page </p>
+  </header>
+
+  <div class="container">
+
+    <!-- Task 3 (Div + Paragraph + Button)  -->
+    <div class="card">
+      <h2> Practice Task 3</h2>
+      <div>
+        <p>
+          My experience of learning HTML is really exciting. I am learning how to create
+          web pages step by step. Every day I practice new tags and improve my skills.
+        </p>
+
+        <button class="btn">Read More</button>
+      </div>
+    </div>
+
+    <!--  Task 4 (Span + Lists)  -->
+    <div class="card">
+      <h2> Practice Task 4</h2>
+
+      <!-- Span outside div -->
+      <span class="tag-title"><b>What I bought</b></span>
+
+      <div>
+        <ol>
+          <li>Souvenir</li>
+          <li>Chocolate</li>
+          <li>Handmade Bag</li>
+          <li>Key Ring</li>
+        </ol>
+      </div>
+
+      <span class="tag-title"><b>My favourite food</b></span>
+
+      <div>
+        <ul>
+          <li>Biriyani</li>
+          <li>Fuchka</li>
+          <li>Chicken Fry</li>
+          <li>Ice Cream</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Task 5 (Image)  -->
+    <div class="card">
+      <h2> Practice Task 5</h2>
+      <p>My favourite Food Image:</p>
+
+      <img
+        src="images/download.jpeg"
+        alt="A plate of Sorisha Elish "
+        width="350"
+        height="240"
+      >
+    </div>
+
+    <!-- Task 6 (Anchor link + br)  -->
+    <div class="card">
+      <h2> Practice Task 6</h2>
+      <p> Favourite Song While Traveling:</p>
+
+      <a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank">
+        Perfect - Ed Sheeran
+      </a>
+      <br><br>
+
+      <a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk" target="_blank">
+        Despacito - Luis Fonsi
+      </a>
+      <br><br>
+    </div>
+
+    <!-- Explore Form (Like your screenshot) ==== -->
+    <div class="card">
+      <h2> Explore Form</h2>
+
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your Name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Your Password">
+
+        <label>Select one</label>
+        <select>
+          <option>Select one</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+
+        <br><br>
+
+        <input class="btn" type="submit" value="Submit">
+        <input class="btn" type="reset" value="Clear">
+
+        <br><br>
+
+        <label for="textInput">input</label>
+        <input type="text" id="textInput" placeholder="Write something...">
+
+        <label>Pick a color</label>
+        <input type="color">
+
+        <label>Select a date</label>
+        <input type="date">
+
+        <label>Upload a file</label>
+        <input type="file">
+
+        <label for="inputSelect">input:</label>
+        <select id="inputSelect">
+          <option>Select</option>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+        </select>
+      </form>
+    </div>
+
+  </div>
+
+  <footer>
+    Made by Hafizur Rahman  | Practice HTML Page from module 1 and 2
+  </footer>
+
+</body>
+</html>
