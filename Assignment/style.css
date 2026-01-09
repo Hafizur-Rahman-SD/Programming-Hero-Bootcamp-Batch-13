@@ -394,4 +394,63 @@ font-size: 15px;
 /* cta section end  */
 /* footer section start 5th part o work  */
 
+.footer{
+background: #001c36;
+color: white;
+padding: 70px 0 25px;
+}
+
+.footer-wrap{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 25px;
+}
+
+/* footer logo for social midea  */
+.footer-logo{
+height: 60px;
+width: auto;
+}
+
+/* footer title */
+.footer-title{
+font-size: 18px;
+font-weight: 700;
+margin-bottom: 12px;
+}
+
+/* social icons designs  */
+.social{
+display: flex;
+gap: 15px;
+}
+
+.social a{
+width: 35px;
+height: 35px;
+background: white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.social img{
+width: 16px;
+height: 16px;
+}
+
+/* footer line */
+.copy{
+text-align: center;
+font-size: 15px;
+margin-top: 50px;
+padding-top: 25px;
+border-top: px solid rgba(255,255,255,0.18);
+color: rgba(255,255,255,0.85);
+}
+
+/* footer section end  */
 
