@@ -278,3 +278,120 @@ font-weight: 700;
   color: #7a8ca2;
   line-height: 1.6;
 }
+
+
+/* features section end  */
+
+
+/* solution section start 4th part o work  */
+.solution{
+padding: 80px 0;
+}
+
+.solution-wrap{
+display: flex;
+gap: 60px;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.solution-img{
+flex: 1;
+min-width: 340px;
+}
+
+.solution-img img{
+border-radius: 15px;
+}
+
+.solution-text{
+flex: 1;
+min-width: 350px;
+}
+
+.label{
+font-size: 15px;
+font-weight: 700;
+color: #3a8f5b;
+margin-bottom: 16px;
+}
+
+.solution-text h5{
+font-size: 55px;
+font-weight: 900;
+color: #021a33;
+line-height: 1.1;
+margin-bottom: 18px;
+}
+
+.para{
+font-size: 16px;
+line-height: 1.7;
+color: #6b7b90;
+margin-bottom: 28px;
+}
+
+/* list  for soboj battir lomba sari */
+.list li{
+font-size: 16px;
+color: #0f172a;
+margin-bottom: 14px;
+}
+
+/* green tick from internet  */
+.list li::before{
+content: "✓";
+background: #3a8f5b;
+color: white;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+margin-right: 10px;
+font-size: 12px;
+}
+
+
+/* cta section start  */
+/* call to action  */
+.cta{
+padding: 50px 0;
+}
+
+.cta-box{
+text-align: center;
+background: #f7f6f2;
+border: 1px solid #eef2f7;
+border-radius: 10px;
+padding: 90px 20px;
+}
+
+.cta-box h2{
+font-size: 45px;
+font-weight: 900;
+color: #021a33;
+margin-bottom: 14px;
+}
+
+.cta-box p{
+max-width: 650px;
+margin: 0 auto;
+font-size: 15px;
+color: #6b7b90;
+line-height: 1.7;
+margin-bottom: 30px;
+}
+
+.cta-box small{
+display: block;
+margin-top: 20px;
+color: #6b7b90;
+font-size: 15px;
+}
+
+/* cta section end  */
+/* footer section start 5th part o work  */
+
+
