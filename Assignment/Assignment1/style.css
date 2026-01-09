@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #0b1320;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/* header start */
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.logo img {
+  height: 56px;
+  width: auto;
+}
+
+/*  3 menu  design  */
+.menu {
+  display: flex;
+  gap: 36px;
+}
+
+.menu a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #0b1320;
+}
+
+.menu a:hover {
+  color: #2f7d52;
+}
+
+/* buttons with hubber effect */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: #3a8f5b;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2f7d52;
+}
+
+/* header sesh  */
+/* hero section start  */
+.hero {
+  background: url("assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+}
+
+/* overlay akta fatafatir nam  */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 35, 63, 0.78);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* badge  soboj buttion tu ante hobe tai korlam aitok */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #2f7d52;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border: 1px solid #e9eef5;
+}
+
+
+/* badge er age akta choto gola  */
+.badge::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #2f7d52;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 0 3px rgba(47, 125, 82, 0.18);
+}
+
+/* hero title */
+.hero-title {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: 18px;
+}
+
+.hero-title span {
+  color: #30b86d;
+}
+
+/* hero text */
+.hero-text {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 32px;
+}
+
+/* hero buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: white;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.play {
+  font-size: 12px;
+}
+
+.arrow {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+/* hero section end  */
+
+
+/* features section start 3rd part o work  */
+.features {
+  padding: 90px 0;
+  background: white;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-title h2 {
+  font-size: 52px;
+  font-weight: 800;
+  color: #031b34;
+  margin-bottom: 18px;
+}
+
+.section-title p {
+  font-size: 18px;
+  color: #7a8ca2;
+  line-height: 1.6;
+}
+
+/* card wrapper */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 26px;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  border: 1px solid #eef2f7;
+  border-radius: 35px;
+  padding: 60px 15px;
+  text-align: center;
+
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.06);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* icon circle perfect ache mone hocce  */
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background: #f34e4e;
+  /* red circle */
+  border-radius: 50%;
+  margin: 0 auto 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* icon image  */
+.icon-box img {
+  width: 26px;
+
+  height: 26px;
+  display: inline-block;
+}
+
+/* card title */
+.card h4 {
+  font-size: 24px;
+  font-weight: 800;
+
+  color: #031b34;
+  margin-bottom: 18px;
+}
+
+/* card text */
+.card p {
+  font-size: 15px;
+  color: #7a8ca2;
+  line-height: 1.6;
+}
+
+
+/* features section end  */
+
+
+/* solution section start 4th part o work  */
+.solution {
+  padding: 80px 0;
+}
+
+.solution-wrap {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.solution-img {
+  flex: 1;
+  min-width: 340px;
+}
+
+.solution-img img {
+  border-radius: 15px;
+}
+
+.solution-text {
+  flex: 1;
+  min-width: 350px;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3a8f5b;
+  margin-bottom: 16px;
+}
+
+.solution-text h5 {
+  font-size: 55px;
+  font-weight: 900;
+  color: #021a33;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.para {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6b7b90;
+  margin-bottom: 28px;
+}
+
+/* list  for soboj battir lomba sari */
+.list li {
+  font-size: 16px;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+/* green tick from internet  */
+.list li::before {
+  content: "✓";
+  background: #3a8f5b;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+
+/* cta section start  */
+/* call to action  */
+.cta {
+  padding: 50px 0;
+}
+
+.cta-box {
+  text-align: center;
+  background: #f7f6f2;
+  border: 1px solid #eef2f7;
+  border-radius: 10px;
+  padding: 90px 20px;
+}
+
+.cta-box h2 {
+  font-size: 45px;
+  font-weight: 900;
+  color: #021a33;
+  margin-bottom: 14px;
+}
+
+.cta-box p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #6b7b90;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.cta-box small {
+  display: block;
+  margin-top: 20px;
+  color: #6b7b90;
+  font-size: 15px;
+}
+
+/* cta section end  */
+/* footer section start 5th part o work  */
+
+.footer {
+  background: #001c36;
+  color: white;
+  padding: 70px 0 25px;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* footer logo for social midea  */
+.footer-logo {
+  height: 60px;
+  width: auto;
+}
+
+/* footer title */
+.footer-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* social icons designs  */
+.social {
+  display: flex;
+  gap: 15px;
+}
+
+.social a {
+  width: 35px;
+  height: 35px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social img {
+  width: 16px;
+  height: 16px;
+}
+
+/* footer line */
+.copy {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: px solid rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* footer section end  */
