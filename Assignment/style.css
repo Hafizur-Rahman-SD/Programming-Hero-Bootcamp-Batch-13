@@ -190,3 +190,91 @@ font-size: 12px;
 font-size: 16px;
 font-weight: 700;
 }
+
+
+/* hero section end  */
+
+
+/* features section start 3rd part o work  */
+.features{
+  padding: 90px 0;
+  background: white;
+}
+
+.section-title{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-title h2{
+  font-size: 52px;
+  font-weight: 800;
+  color: #031b34;
+  margin-bottom: 18px;
+}
+
+.section-title p{
+  font-size: 18px;
+  color: #7a8ca2;
+  line-height: 1.6;
+}
+
+/* card wrapper */
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 26px;
+}
+
+.card{
+  width: 300px;
+  background: white;
+  border: 1px solid #eef2f7;
+  border-radius: 35px;
+  padding: 60px 15px;
+  text-align: center;
+
+  box-shadow: 0 14px 35px rgba(0,0,0,0.06);
+  transition: 0.2s;
+}
+
+.card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+}
+
+/* icon circle perfect ache mone hocce  */
+.icon-box{
+  width: 60px;
+  height: 60px;
+  background: #f34e4e; /* red circle */
+  border-radius: 50%;
+  margin: 0 auto 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* icon image  */
+.icon-box img{
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+}
+
+/* card title */
+.card h4{
+  font-size: 24px;
+  font-weight: 800;
+  color: #031b34;
+  margin-bottom: 18px;
+}
+
+/* card text */
+.card p{
+  font-size: 15px;
+  color: #7a8ca2;
+  line-height: 1.6;
+}
