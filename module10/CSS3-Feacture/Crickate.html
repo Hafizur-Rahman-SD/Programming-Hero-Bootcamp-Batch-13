@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Practice </title>
+</head>
+<body>
+    <div class="field">
+        <img src="images/download.png" alt="" class="bat">
+    </div>
+</body>
+</html>
+
+
+<style>
+    .field{
+        width: 600px;
+        height: 400px;
+        border: 2px solid green;
+        background-image: url('images/ground.jpg');
+        background-size: cover;
+        position: relative;
+    }
+    .field:hover .bat{
+        animation-play-state: Arunning;
+        transform: rotate(-60deg);
+        transform-origin: top center;
+    }
+
+    .bat{
+        width: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: swing 1s infinite;
+        transform-origin: bottom center;
+    }
+
+    @keyframes swing {
+        0% { transform: translateX(-50%) rotate(0deg); }
+        50% { transform: translateX(-50%) rotate(20deg); }
+        100% { transform: translateX(-50%) rotate(0deg); }
+    }
+</style>
