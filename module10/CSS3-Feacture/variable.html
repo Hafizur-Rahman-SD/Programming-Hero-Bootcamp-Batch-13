@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variable </title>
+</head>
+<body>
+    
+    <h1>My Customer Property </h1>
+    <h5>Also Commonly knows as CSS Variables </h5>
+    <div class="box1">
+       <h3>This is box 1 </h3> 
+    </div>
+    <div class="box2">
+       <h3>This is box 2</h3>   
+       
+    </div>
+</body>
+</html>
+
+<style>
+    :root {
+        --main-color: blue;
+        --secondary-color: red
+        ;
+        font-size: 20px;
+    }
+
+    .box1 {
+        background-color: var(--main-color);
+        color: white;
+        border: 2px solid var(--secondary-color);
+    }
+
+    .box2 {
+        background-color: var(--secondary-color);
+        color: white;
+    }
+    h1 {
+        color: var(--main-color);
+    }
+    h5 {
+        color: var(--secondary-color);
+    }
+
+</style>
