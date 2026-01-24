@@ -1,0 +1,33 @@
+const hight = 175;
+
+if (hight >= 180  && hight <= 200  )   {
+    console.log("You are tall enough to ride the roller coaster.");
+} else {
+    console.log("You are not tall enough to ride the roller coaster.");
+}
+
+
+let temperature = 30;
+
+if (temperature > 25 || temperature === 25 )  {
+    console.log("It's a hot day.");
+}   else {  
+    console.log("It's not a hot day.");
+}
+
+
+
+// if(condition){
+//     // code to be executed if condition is true
+// }    
+
+
+//complaex condition
+
+var weight = 175;
+
+if (weight >= 180  && weight <= 200  && weight > 150 )   {
+    console.log("You are tall enough to ride the roller coaster.");
+} else {
+    console.log("You are not tall enough to ride the roller coaster.");
+}
