@@ -20,3 +20,21 @@ if (age >= 18) {
 } else {
     console.log("You are not eligible to vote.");
 }
+
+
+const salary = 60000;
+
+if (salary > 50000) {   
+    console.log("You are eligible for a premium credit card.");
+} else {
+    console.log("You are not eligible for a premium credit card.");
+}
+const number = 7;
+
+if (number % 2 === 0) {
+    console.log("The number is even.");
+
+
+} else {
+    console.log("The number is odd.");
+}   
