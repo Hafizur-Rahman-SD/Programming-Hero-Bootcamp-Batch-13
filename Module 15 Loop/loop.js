@@ -23,21 +23,31 @@ for (const letter of word) {
 }
 
 //while loop
-const n = 5;
-if (n<10) {
-    console.log("n is less than 10");
-}
-
-
-
 let count = 1;
 while (count <= 5) {
-    console.log("Count is: " + count);
+    console.log(count);
     count++;
 }
 
-let n =0;
-while (n < 3) {
-    console.log("n is: " + n);
-    n++;
+
+
+let num = 10;
+let sum = 0;
+while (num > 0) {
+    sum += num;
+    num--;
+    console.log("Sum of numbers 1 to 10 is:", sum);
+}
+
+
+//even numbers using while loop
+let n = 2;
+while (n <= 20) {
+    console.log(n);
+
+
+    if (n % 4 === 0) {
+        console.log(n, "is divisible by 4");
+    }
+    n += 2;
 }
