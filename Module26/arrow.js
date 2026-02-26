@@ -13,3 +13,12 @@ const doMath = (x,y) =>{
 
 }
 console.log(doMath(10,20));
+
+
+// document.getElementById('btn').addEventListener('click',(event) => {});
+
+
+//sprate.js 
+
+const max= Math.max (3,15,8,7,54,5);
+console.log(max);
